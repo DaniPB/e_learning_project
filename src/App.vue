@@ -1,17 +1,14 @@
 <template>
-  <navbar/>
-  <home/>
+  <guest-navbar></guest-navbar>
 </template>
 
 <script>
-import Home from './components/Home.vue'
-import Navbar from './components/Navbar.vue'
+import GuestNavbar from './components/GuestNavbar.vue'
 
 export default {
   name: 'App',
   components: {
-    Home,
-    Navbar
+    GuestNavbar
   }
 }
 </script>
