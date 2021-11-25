@@ -1,18 +1,13 @@
 <template>
   <div class="main-container">
-    <navbar></navbar>
     <h2>Mujeres en STEM</h2>
   </div>  
 </template>
 
 <script>
-import Navbar from './Navbar.vue'
 
 export default {
   name: 'Home',
-  components: {
-    Navbar
-  }
 }
 </script>
 
@@ -35,7 +30,6 @@ export default {
 
 
 @media (min-width: 320px) {
-  /* .tablet\:text-center { text-align: center } */
   .main-container h2 {
     padding: 102% 0;
     font-size: 37px;
@@ -43,14 +37,12 @@ export default {
 }
 
 @media (min-width: 480px) {
-  /* .tablet\:text-center { text-align: center } */
   .main-container h2 {
     padding: 62% 0;
   }
 }
 
 @media (min-width: 640px) {
-  /* .tablet\:text-center { text-align: center } */
   .main-container h2 {
     padding: 50% 0;
   }
@@ -63,14 +55,12 @@ export default {
 }
 
 @media (min-width: 1024px) {
-  /* .laptop\:text-center { text-align: center } */
   .main-container h2 {
     padding: 66% 0;
   }
 }
 
 @media (min-width: 1280px) {
-  /* .desktop\:text-center { text-align: center } */
   .main-container h2 {
     padding: 26% 0;
   }
